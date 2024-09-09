@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.milk-dairy-logo {
+    width: 60px;
+    height: 50px;
+    border-radius: 20%;
+
+}
+
+nav {
+    background-color: #000080;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: lightgreen;
+}
+
+
+
+
+
+
+
+
+header,
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: #f5f5f5;
+
+}
+
+.card-img-top {
+    border-radius: 3px;
+    border-radius: 24px;
+    margin-top: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://media.gettyimages.com/id/1185843533/photo/we-eat-the-best-to-give-you-the-best.jpg?s=612x612&w=0&k=20&c=N3qzhjsyhnMemtRjRVSREdgQPGaNS8VRKehxw_1Kamk=');
+}
+
+section {
+    border-bottom: 1px solid #ddd;
+
+
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    font-size: 50px;
+    border-radius: 2rem;
+
+}
+
+.fa-instagram {
+    background: red;
+    color: white;
+    font-size: 50px;
+    border-radius: 2rem;
+
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 50px;
+    border-radius: 2rem;
+
+}
+
+.fa-github {
+    background: #55ACEE;
+    color: white;
+}
+
+#help {
+    background-color: #dcdcdc;
+    border-radius: 2rem;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
