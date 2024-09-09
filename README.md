@@ -1,1 +1,1 @@
-This a fronend webpage on Mulk daily form.
+This a frontend webpage on Mulk daily form.
